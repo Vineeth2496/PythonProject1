@@ -1,3 +1,4 @@
+#DB operations
 # install connector 'pip install mysql-connector-python'
 import mysql.connector as mc
 con=mc.connect(host="localhost",user="root",passwd="vine96",database="pydb")
